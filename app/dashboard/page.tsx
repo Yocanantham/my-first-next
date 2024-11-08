@@ -2,7 +2,9 @@
 export default function Page() {
     return (
         <>
-            <div>Dashboard</div>
+            <h1 className="text-5xl text-center max-h-screen m-64">
+                Dashboard
+            </h1>
         </>
     );
 }

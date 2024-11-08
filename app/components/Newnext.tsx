@@ -6,7 +6,7 @@ function Newnext() {
     /* The console log is shown in both server and client console because in `NEXT` because even "client components" are partially rendered as "server components"  */
     return (
         <>
-            <h1>Good morning</h1>
+            <h1 className="text-5xl">Good morning</h1>
         </>
     );
 }
