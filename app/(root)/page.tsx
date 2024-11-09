@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Newnext from "./components/Newnext";
+import Newnext from "../components/Newnext";
 import Image from "next/image";
 export default function Home() {
     console.log("Am I Client or Server Now");
@@ -23,7 +23,7 @@ export default function Home() {
             <div className="w-full">
                 <ul className="list-next">
                     <li>
-                        <Link href="/dashboard">Dashboard</Link>
+                        <Link href="/dashboard/home">Home</Link>
                     </li>
                     <li>
                         <Link href="/dashboard/analytics">Analytics</Link>
